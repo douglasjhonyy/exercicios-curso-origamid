@@ -1,0 +1,79 @@
+:root{
+    --amarelo-preco: #febe01;
+    --amerelo-botao: #332200;
+    --preto: #111;
+    --cinza: #b2b2b2;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div{
+    background: var(--preto);
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+
+    
+
+    
+    
+    /*
+    width: 100%;
+    height: 200px;
+    
+    eu coloquei essas duas propriedades, mas no fim foi desnecessario
+    */
+    
+}
+
+h1{
+    color: var(--preto);
+    text-align: center;
+    
+    
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+span{
+    color: var(--amarelo-preco);
+    
+}
+
+p{
+    color: var(--cinza);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px;
+    color: var(--preto);
+    background-color: #febe01;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: 5;
+
+    
+    
+}
