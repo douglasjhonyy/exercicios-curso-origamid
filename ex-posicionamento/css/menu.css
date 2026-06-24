@@ -1,7 +1,18 @@
 
+header{
+    display: grid;
+     gap: 3.7rem;
+    justify-items: center;
+}
+
 .logo{
     width: 250px;
+    transition: 0.4s;
     
+}
+
+.logo:hover{
+    width: 270px;
 }
 
 .menu {
@@ -15,9 +26,15 @@
 
 a{
     text-decoration: none;
-    padding: 16px 30px;
+    padding: 1rem 30px;
     text-transform: uppercase;
     background: white;
     border-radius: 4px; 
     color: black;
+    transition: 0.3s;
+}
+
+a:hover{
+    background: #e93c2d;
+    color: aliceblue;
 }

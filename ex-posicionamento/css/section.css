@@ -4,7 +4,7 @@ img {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 h1 {
@@ -20,6 +20,11 @@ h1 {
     text-transform: uppercase;
 }
 
+.botao:hover{
+    background: #e93c2d;
+    color: aliceblue;
+}
+
 .conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +33,7 @@ h1 {
 
 .introducao {
     background: #fff;
-    padding: 40px;
+    padding: 2.5rem;
     text-align: right;
     position: relative;
     display: grid;
@@ -40,7 +45,7 @@ h1 {
 }
 
 .detalhe {
-    width: 60px;
+    width: 3.7rem; 
     height: 4px;
     background: #e21;
     position: absolute;
@@ -49,7 +54,7 @@ h1 {
 }
 
 .subtitulo {
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
@@ -60,14 +65,14 @@ h1 {
 
 .vantagens {
     background: #fff;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .vantagens-item {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 20px;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .vantagens-item p {
@@ -78,6 +83,6 @@ h1 {
     background: #fff;
     width: 100%;
     text-align: center;
-    padding: 40px;
+    padding: 2.5rem;
     box-sizing: border-box;
 }
