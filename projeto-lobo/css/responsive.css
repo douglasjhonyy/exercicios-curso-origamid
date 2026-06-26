@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .header {
+        /*display: grid;
+        justify-items: center;*/
+
+        flex-direction: column; /*essa solução foi melhor q a minha acima*/
+        
+    }
+     .header a{
+        background: #f5f5f5;
+        border-radius: 4px;
+        transition: 0.3s;
+     }
+     .header a:hover{
+        color: #f5f5f5;
+        background: gray;
+     }
+
+    .header-menu{
+        padding: 1rem;
+    }
+    
+    
+}
+
+@media (max-width:800px){
+    .introducao {
+
+        img{
+            display: none;
+        }
+
+        .titulo h1{
+            font-size: 3.5rem;
+        }
+        .titulo h1::before{
+            width: 40px;
+            height: 10px;
+            left: 0;
+        }
+        
+    }
+    
+
+}

@@ -1,0 +1,34 @@
+header{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px ;
+    margin: 0 auto;
+}
+
+
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;  
+    justify-content: center;
+    
+}
+.header-menu a{
+    padding: 10px 5px;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--color1);text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.header-menu a:hover{
+    color: var(--color1);
+    background: #cef43480;
+    border-radius: 4px;
+    
+}

@@ -1,0 +1,21 @@
+:root{
+    --color: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+    
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    
+}
