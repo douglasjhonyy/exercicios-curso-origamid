@@ -27,3 +27,11 @@ a, li{
     word-break: break-all;
     max-width: 5ch;
 }
+
+@media (max-width: 800px){
+    .subtitulo{
+        font-size: 3rem;
+        text-transform: uppercase;
+        max-width: initial;
+    }
+}
