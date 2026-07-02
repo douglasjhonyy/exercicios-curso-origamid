@@ -82,3 +82,20 @@
         content: "Periodo: ";
     }
 }
+
+/*Formação*/
+@media (max-width: 768px) {
+    .formacao-container{
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+        gap: 40px;
+    }
+
+    .formacao-subtitulo{
+        color: #ffffff;
+    }
+
+    .formacao-texto{
+        font-size: 1.25rem;
+    }
+}
